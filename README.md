@@ -1,4 +1,4 @@
-# Self-Supervised Learning for Crop Yield Prediction
+# Self-Supervised Learning for Crop Classification and Yield Prediction
 
 ## Author
 
