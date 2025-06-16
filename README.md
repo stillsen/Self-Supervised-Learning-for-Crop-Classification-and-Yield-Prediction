@@ -9,9 +9,9 @@ ORCID: [0009-0004-7468-1678](https://orcid.org/0009-0004-7468-1678)
 
 ## Description
 
-This repository contains the code for the study "Self-Supervised Learning Advances Crop Classification and Yield Prediction". The project aims to train, demonstrate, and evaluate a convolutional neural network with self-supervised learning for predicting yields and classifying crop types from RGB drone imagery across the four summer crops: lupine, sunflower, soy and maize. 
+This repository contains the code for the study "Self-Supervised Learning Advances Crop Classification and Yield Prediction". The project aims to train, and evaluate a convolutional neural network with self-supervised learning for classifying crop types and predicting yields from RGB drone imagery across the four summer crops: lupine, sunflower, soy and maize. 
 
-We pre-train the self-supervised model using VICReg across unlabeled images of all crop types. Then we exchange the projector for a prediction head and fine-tune specifically for each crop type by freezing the backbone. This setup includes fourfold spatial cross-validation where is hyperparameter tuning. 
+We pre-train the self-supervised model using VICReg across unlabeled images of all crop types across the entire fields. Then we exchange the projector for a prediction head and fine-tune specifically for each crop type by freezing the backbone. For file tuning, we use a dataset that clips images around each yield point's location. This setup includes fourfold spatial cross-validation and hyperparameter tuning. 
 
 We evaluate self-supervised learning at two levels:
 - At the level of embeddings
@@ -21,7 +21,7 @@ We evaluated the embeddings for differentiating between crop types. For that, we
 
 We evaluated yield prediction using Pearson's correlation coefficient between predicted and observed yield using a field-level prediction performance indicator. 
 
-For a detailed description, see the publication or reach out for contact.
+For a detailed description and results, see the publication or reach out for contact.
 
 ## Data Requirements
 
