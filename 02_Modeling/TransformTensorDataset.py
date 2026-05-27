@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Part of the self-supervised learning for crop yield prediction study entitled "Self-Supervised Learning Advances Crop Classification and Yield Prediction".
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
 This script provides custom dataset classes for handling image data in the yield prediction pipeline, supporting transformations,
 augmentations, and metadata handling for both supervised and self-supervised learning approaches.
 
