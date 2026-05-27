@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
 """
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
 Paired one-sided SSL-vs-SL significance tests on extreme-filtered field-level metrics.
 
 Hypotheses (per metric, paired across fields):
   - Pearson's r (and Fisher z): H0: SSL <= SL; H1: SSL > SL
   - MAE / RMSE (lower is better): H0: SSL >= SL; H1: SSL < SL
 
-Non-significant results are reported as "no significant evidence that SSL is better"
-(one-sided tests do not support a claim that SL is better).
+For license information, see LICENSE file in the repository root.
+For citation information, see CITATION.cff file in the repository root.
 """
 
 import argparse
