@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Part of the self-supervised learning for crop yield prediction study entitled "Self-Supervised Learning Advances Crop Classification and Yield Prediction".
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
 This script handles model selection, hyperparameter tuning, and validation for both supervised and self-supervised learning approaches.
 It implements spatial cross-validation, early stopping, and model checkpointing.
 
