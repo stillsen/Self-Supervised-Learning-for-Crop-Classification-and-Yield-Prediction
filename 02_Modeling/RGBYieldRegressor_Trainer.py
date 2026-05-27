@@ -1,5 +1,5 @@
 """
-Part of the self-supervised learning for crop yield prediction study entitled "Self-Supervised Learning Advances Crop Classification and Yield Prediction".
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
 This script implements the training framework for crop yield prediction using VICReg self-supervised learning.
 
 The framework supports:
