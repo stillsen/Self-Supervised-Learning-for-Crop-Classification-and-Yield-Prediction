@@ -54,6 +54,9 @@ Note: The data preprocessing scripts in `01_Data_Preprocessing/` are not include
     ├── plot_all_losses_*.py  # Training loss visualization
     ├── plot_summary_fig_*.py # Model performance comparison
     └── plot_embedding_*.py   # Embedding visualization
+    └── build_field_level_performance_*.py   # builds field-level performance tables
+    └── analyze_ssl_vs_sl_*.py   # Paired one-sided SSL-vs-SL prediction performance test
+    └── analyze_intra_site_transfer_*.py   # Paired one-sided SSL-vs-SL validation-to-test change test
 ```
 
 ## Installation
