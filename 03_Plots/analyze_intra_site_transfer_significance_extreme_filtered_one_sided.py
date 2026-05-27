@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 """
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
 Paired one-sided intra-site transfer significance tests (validation vs test).
 
 Test-vs-validation (per SSL/SL approach):
@@ -9,6 +11,9 @@ SSL-vs-SL on intrinsic deltas (test - val), paired across fields:
   - Pearson delta: H0: delta_SSL <= delta_SL; H1: delta_SSL > delta_SL
   - MAE/RMSE delta: H0: delta_SSL >= delta_SL; H1: delta_SSL < delta_SL
     (SSL shows smaller deterioration from validation to test)
+
+For license information, see LICENSE file in the repository root.
+For citation information, see CITATION.cff file in the repository root.
 """
 
 import argparse
