@@ -9,7 +9,7 @@ ORCID: [0009-0004-7468-1678](https://orcid.org/0009-0004-7468-1678)
 
 ## Description
 
-This repository contains the code for the study "Self-Supervised Learning Advances Crop Classification and Yield Prediction". The project aims to train, and evaluate a convolutional neural network with self-supervised learning for classifying crop types and predicting yields from RGB drone imagery across the four summer crops: lupine, sunflower, soy and maize. 
+This repository contains the code for the study "Self-supervised learning for crop yield prediction across diversified cropping systems". The project aims to train, and evaluate a convolutional neural network with self-supervised learning for classifying crop types and predicting yields from RGB drone imagery across the four summer crops: lupine, sunflower, soy and maize. 
 
 We pre-train the self-supervised model using VICReg across unlabeled images of all crop types across the entire fields. Then we exchange the projector for a prediction head and fine-tune specifically for each crop type by freezing the backbone. For file tuning, we use a dataset that clips images around each yield point's location. This setup includes fourfold spatial cross-validation and hyperparameter tuning. 
 
