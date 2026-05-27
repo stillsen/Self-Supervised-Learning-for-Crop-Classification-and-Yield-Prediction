@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
+This script builds field-level performance tables after removing samples with extreme abs(y_hat).
+
+For license information, see LICENSE file in the repository root.
+For citation information, see CITATION.cff file in the repository root.
+"""
+
 import argparse
 import json
 import os
