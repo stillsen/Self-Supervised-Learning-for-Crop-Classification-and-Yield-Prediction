@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
+This script audits extreme y_hat predictions in y-y_hat CSV files.
+
+For license information, see LICENSE file in the repository root.
+For citation information, see CITATION.cff file in the repository root.
+"""
 import argparse
 import os
 from typing import Dict, List, Optional, Tuple
