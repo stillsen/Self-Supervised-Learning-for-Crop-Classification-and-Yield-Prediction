@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Part of the self-supervised learning for crop yield prediction study entitled "Self-Supervised Learning Advances Crop Classification and Yield Prediction".
+Part of the self-supervised learning for crop yield prediction study entitled "Self-supervised learning for crop yield prediction across diversified cropping systems".
 This script generates publication-quality plots of SSL training and fine-tuning losses for different architectures and crop types.
 
 The script:
